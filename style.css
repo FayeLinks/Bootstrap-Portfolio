@@ -1,3 +1,24 @@
+h1 {
+  font-family: 'Special Elite', cursive;
+  color: rgb(12, 146, 146)
+}
+.container {
+  background-color: #054d50;
+}
+p {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  color: rgb(14, 73, 112);
+}
+nav {
+  font-family: 'Bitter', serif;
+}
+.jumbotron {
+  background: rgb(240, 229, 202)
+}
+a {
+  color: #f88847;
+}
 img {
     align-content: center;
     width: 100%;
@@ -11,6 +32,11 @@ img {
     width: 75%;
     text-align: center;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(14, 73, 112);
+    font-family: 'Slabo 27px', serif;
     font-size: 40px;
   }
+
+font-family: 'Special Elite', cursive;
+font-family: 'Slabo 27px', serif;
+font-family: 'Bitter', serif;
