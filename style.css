@@ -1,6 +1,11 @@
+html, body {
+  background-image: linear-gradient(to right, #f88847, #054d50);
+  height: 100%;
+}
+
 h1 {
   font-family: 'Special Elite', cursive;
-  color: rgb(12, 146, 146)
+  color: rgb(12, 146, 146);
 }
 .container {
   background-color: #054d50;
@@ -27,6 +32,11 @@ img {
 .col-lg-3 {
   align-content: center;
 }
+.col-lg-9, p {
+  font-family: 'Slabo 27px', serif;
+  font-size: 35px;
+  color: #054d50;
+}
 .centered {
     position: absolute;
     top: 50%;
@@ -42,4 +52,11 @@ img {
 footer {
     background: #054d50;
     color: #f88847;
+}
+.img-fluid {
+  align-content: center;
+  border: 3px solid  #054d50;
+ margin: 10px;
+    width: 80%;
+    height: 90%;
 }
